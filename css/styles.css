@@ -21,6 +21,9 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
 .logo {
   color: #99998f;
   font-size: 30px;
