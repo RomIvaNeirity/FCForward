@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  color: #212121;
+  background-color: #bdbd9c;
+}
+
+header {
+  border: 2px solid #99998f;
+  border-radius: 10px;
+
+  background-color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #99998f;
+  font-size: 30px;
+}
+.header-logo {
+  color: #db5c01;
+}
+
+.hero {
+  background-color: #db5c01;
+  background-image: linear-gradient(to right, #db5c01, white, #db5c01);
+  border: 2px solid #99998f;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sctn-one,
+.sctn-two,
+.sctn-three,
+.sctn-four {
+  background-image: linear-gradient(to right, #cbb796, white, #cbb796);
+  border: 2px solid #99998f;
+  border-radius: 10px;
+  background-color: #cbb796;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-image: linear-gradient(to right, #db5c01, white, #db5c01);
+  border: 2px solid #99998f;
+  border-radius: 10px;
+  background-color: #db5c01;
+}
+.footer-logo {
+  color: black;
+}
