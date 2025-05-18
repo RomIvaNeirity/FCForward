@@ -24,6 +24,7 @@ a {
 img {
   max-width: 100%;
 }
+
 .logo {
   color: #99998f;
   font-size: 30px;
@@ -34,7 +35,7 @@ img {
 
 .hero {
   background-color: #db5c01;
-  background-image: linear-gradient(to right, #db5c01, white, #db5c01);
+  background-image: linear-gradient(to right, white, #db5c01, white);
   border: 2px solid #99998f;
   border-radius: 10px;
   margin-top: 5px;
@@ -60,4 +61,13 @@ footer {
 }
 .footer-logo {
   color: black;
+}
+
+.header-nav-list,
+.header-adress,
+.exprnc {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: baseline;
 }
